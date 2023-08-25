@@ -68,6 +68,10 @@ class AuthController {
       });
     }
   };
+
+  static check = async (req, res) => {
+    res.send("Server is up and running");
+  };
 }
 
 module.exports = AuthController;
